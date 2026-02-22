@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Lab01/Images/profile.jpg"
+profile_picture = "Lab01/Lab01/Images/profile.jpg"
 about_me = "Hi! I'm Raquel Behar a biomedical engineering student at Georgia Institute of Technology"
 
 
@@ -31,9 +31,9 @@ course_data = {
     "skills":["Currently learning how to utilize python", "Learning about medical devices and optimizing a specific device as a semester project", "Learned the basics of chemistry while implementing my knowledge in the lab", "Learned about psycology: how it is implemented in evryday life and how it dictates human behavior."],
     }
 experience_data = {
-    "Intern at NUX lab": (["Interned as a lab technitian, sampling blood samples and learning about different machines"],"Lab01/Images/experience.jpg"),  
-    "Reasearch assistant at INDICASAT":(["Assisted on research on patients with Alzeheimers and their blood biomarkers"],"Lab01/Images/indicasat.jpg"),
-    "Creator of a Non-Profit":(["Dosis of Apoyo was a project in which we created a nursery for a low resources school in Panama City. Then, we did a training session for professor and workers in collaboration with the Red Cross."],"Lab01/Images/redcross.jpg")
+    "Intern at NUX lab": (["Interned as a lab technitian, sampling blood samples and learning about different machines"],"Lab01/Lab01/Images/experience.jpg"),  
+    "Reasearch assistant at INDICASAT":(["Assisted on research on patients with Alzeheimers and their blood biomarkers"],"Lab01/Lab01/Images/indicasat.jpg"),
+    "Creator of a Non-Profit":(["Dosis of Apoyo was a project in which we created a nursery for a low resources school in Panama City. Then, we did a training session for professor and workers in collaboration with the Red Cross."],"Lab01/Lab01/Images/redcross.jpg")
 
 }
 
@@ -66,8 +66,8 @@ spoken_data = {
     "Spanish": "Fluent",
 }
 leadership_data = {
-    "Counsleor in a Panamanian Organization ": (["Worked with over +100 kids, planning activities and organizing events"],"Lab01/Images/leadership.jpg"),
-    "Class goverment secretary": (["Organized class events, managed communication between proffesors and students, managed event planning and fundraisers"],"Lab01/Images/classgov.jpg")
+    "Counsleor in a Panamanian Organization ": (["Worked with over +100 kids, planning activities and organizing events"],"Lab01/Lab01/Images/leadership.jpg"),
+    "Class goverment secretary": (["Organized class events, managed communication between proffesors and students, managed event planning and fundraisers"],"Lab01/Lab01/Images/classgov.jpg")
 }
 activity_data={
     "Team Leader & Counselor": ["I served as both a counselor and teacher for a group of more than 80 girls, facilitating the creation of a community event. I taught dances and was responsible for managing communications with their guardians. "]

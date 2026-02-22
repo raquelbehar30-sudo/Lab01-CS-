@@ -8,23 +8,23 @@ st.set_page_config(page_title="Coffee Personality Quiz", page_icon="☕")
 st.title("What Type of Coffee Are You? ☕")
 st.write("Answer these questions to find out your ideal coffee!")
 
-icedlatte_img = "Lab01/Images/icedlatte.jpg"
-cortado_img = "Lab01/Images/cortado.jpg"
-espresso_img = "Lab01/Images/espresso.jpg"
-coldfoam_img = "Lab01/Images/coldfoam.jpg"
+icedlatte_img = "Lab01/Lab01/Images/icedlatte.jpg"
+cortado_img = "Lab01/Lab01/Images/cortado.jpg"
+espresso_img = "Lab01/Lab01/Images/espresso.jpg"
+coldfoam_img = "Lab01/Lab01/Images/coldfoam.jpg"
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    st.image("Lab01/Images/icedlatte.jpg", width=200)
+    st.image("Lab01/Lab01/Images/icedlatte.jpg", width=200)
     st.caption("icedlatte")
 with col2:
-    st.image("Lab01/Images/cortado.jpg", width=200)
+    st.image("lab01/Lab01/Images/cortado.jpg", width=200)
     st.caption("cortado")
 with col3:
-    st.image("Lab01/Images/espresso.jpg", width=200)
+    st.image("Lab01/Lab01/Images/espresso.jpg", width=200)
     st.caption("espresso")
 with col4:
-    st.image("Lab01/Images/coldfoam.jpg", width=200)
+    st.image("Lab01/Lab01/Images/coldfoam.jpg", width=200)
     st.caption("coldfoam")
 
 st.divider()
@@ -129,21 +129,21 @@ if st.button("Get my result!"):
         st.info(f"Tie! You match: **{', '.join(winners)}** (showing the first one)")
 
     if result == "icedlatte":
-        st.image("Lab01/Images/icedlatte.jpg", width=300)
+        st.image("Lab01/Lab01/Images/icedlatte.jpg", width=300)
         st.success("**You are an Iced Latte!** Cozy, reliable, and you bring calm energy.")
         st.metric("IcedLatte Points", icedlatte)  
                  
-    elif result == "Cortado":
-        st.image("Lab01/Images/cortado.jpg", width=300)
+    elif result == "cortado":
+        st.image("Lab01/Lab01/Images/cortado.jpg", width=300)
         st.success("**You are Cortado!** Chill, fun, and you’re always up for plans.")
         st.metric("Cortado Points", cortado)  
         
-    elif result == "Espresso":
-        st.image("Lab01/Images/espresso.jpg", width=300)
+    elif result == "espresso":
+        st.image("Lab01/Lab01/Images/espresso.jpg", width=300)
         st.success("**You are an Espresso!** Bold, intense, and you get things done.")
         st.metric("Espresso Points", espresso) 
     else:
-        st.image("Lab01/Images/coldfoam.jpg", width=300)
+        st.image("Lab01/Lab01/Images/coldfoam.jpg", width=300)
         st.success("**You are a Coldfoam Latte!** Unique, creative, and you like doing things your own way.")
         st.metric("coldfoam Points", coldfoam)  
 
