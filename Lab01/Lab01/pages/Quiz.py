@@ -18,7 +18,7 @@ with col1:
     st.image("Lab01/Lab01/Images/icedlatte.jpg", width=200)
     st.caption("icedlatte")
 with col2:
-    st.image("lab01/Lab01/Images/cortado.jpg", width=200)
+    st.image("Lab01/Lab01/Images/cortado.jpg", width=200)
     st.caption("cortado")
 with col3:
     st.image("Lab01/Lab01/Images/espresso.jpg", width=200)
